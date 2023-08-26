@@ -13,7 +13,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const hello = await $content(`hello`).fetch()
+    const hello = await $content(`/posts/hello-world`).fetch()
     return {
       hello,
     }
