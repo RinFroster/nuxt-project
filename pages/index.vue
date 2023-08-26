@@ -2,7 +2,7 @@
   <main>
     <section>
       <div class="container">
-        <h1 class="text-4xl text-red-500 text-center font-bold">
+        <h1 class="text-4xl font-bold text-center text-red-500">
           Hi - This is my Project
         </h1>
       </div>
@@ -11,5 +11,12 @@
 </template>
 
 <script>
-export default {}
+export default {
+  async asyncData({ $content }) {
+    const hello = await $content(`hello`).fetch()
+    return {
+      hello,
+    }
+  },
+}
 </script>

@@ -18,8 +18,10 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.9",
+    "@tinacms/cli": "^1.5.29",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
+    "tinacms": "^1.5.20",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
