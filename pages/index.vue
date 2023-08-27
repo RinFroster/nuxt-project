@@ -5,6 +5,7 @@
         <h1 class="text-4xl font-bold text-center text-red-500">
           Hi - This is my Project
         </h1>
+        <div>Demo Post</div>
         <div>{{ posts }}</div>
       </div>
     </section>
