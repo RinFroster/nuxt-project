@@ -2,4 +2,4 @@
 title: Blog 1
 ---
 
-This is a blo
+This is a blog
