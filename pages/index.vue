@@ -13,9 +13,9 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const hello = await $content(`/posts/hello-world`).fetch()
+    const posts = await $content(`/posts`).fetch()
     return {
-      hello,
+      posts,
     }
   },
 }
